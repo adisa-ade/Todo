@@ -157,9 +157,10 @@ function allTask(){
 }
 function activeTask(){
     const items = document.querySelectorAll('li')
+    const item2 = document.querySelectorAll('.new-task')
     for(let i = 0; i < items.length; i++){
         items[i].style.display = 'block'
-        if(items[i].classList.contains('checked')){
+        if(item2.length >= 1 && items[i].classList.contains('checked')){
         items[i].style.display = 'none'
     }  
 }
