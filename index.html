@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor- ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+</body>
+<img src="images/bg-desktop-dark.jpg" alt="" class="toggle desktop-dark-image">
+<img src="images/bg-desktop-light.jpg" alt=""class="toggle desktop-light-image">
+<img src="images/bg-mobile-dark.jpg" alt="" class="toggle mobile-dark-image">
+<img src="images/bg-mobile-light.jpg" alt="" class="toggle mobile-light-image"> 
+
+
+    <div class="container">
+        <div class="hero">
+            <h1>TODO</h1>
+            <img id="light" src="images/icon-moon.svg" alt="">
+            <img id="dark" src="images/icon-sun.svg" alt="">
+        </div>
+        <div class="add-task">
+            <input type="text"  placeholder="Create a new todo...">
+            <button>Add Task</button>
+        </div>               
+        <div class="details list">
+            <ul class="list-container">                
+            </ul>            
+            <div class="list-footer">
+                <small id="count"></small>
+                <div class="desktop-status">
+                    <small id="all">All</small>
+                    <small id="active">Active</small>
+                    <small id="completed">Completed</small>
+                </div>
+                <small id="clear-completed">Clear Completed</small>
+            </div>
+        </div>
+        <div class="details status" id="status">
+            <h3 id="all">All</h3>
+            <h3 id="active">Active</h3>
+            <h3 id="completed">Completed</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
