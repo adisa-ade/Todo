@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/adisa-ade/Todo.git)
-- Live Site URL: [FrontEnd Mentor]((https://adisa-ade.github.io/Todo/))
+- Live Site URL: [FrontEnd Mentor](https://adisa-ade.github.io/Todo/)
 
 ## My process
 
