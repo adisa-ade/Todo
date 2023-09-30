@@ -49,4 +49,4 @@ Users should be able to:
 
 - Website - [Porfolio](https://adisa-ade.github.io/My-Portfolio/)
 - Frontend Mentor - [@adisa-ade](https://www.frontendmentor.io/profile/adisa-ade)
-- Twitter - [@halal-codes](https://www.twitter.com/halal_codes)
+- Twitter - [@halal-codes](https://twitter.com/_adisaade)
